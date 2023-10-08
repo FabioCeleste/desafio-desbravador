@@ -1,0 +1,69 @@
+@import "../../app/colors.scss";
+
+.repositoryItem {
+  background: $background-200;
+
+  width: 300px;
+
+  margin: 24px 0;
+
+  padding: 8px;
+
+  a {
+    color: $text-100;
+    font-size: 18px;
+  }
+}
+
+.repositoryName {
+  color: $text-100;
+  font-size: 22px;
+}
+
+.repositoryNumbers {
+  display: flex;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  justify-content: space-between;
+
+  p {
+    color: $text-100;
+    font-size: 18px;
+  }
+}
+
+.repDesc {
+  color: $text-100;
+  font-size: 18px;
+
+  margin-top: 22px;
+}
+
+.filter {
+  display: flex;
+  align-items: center;
+
+  justify-content: flex-end;
+
+  margin: 16px 0;
+
+  cursor: pointer;
+
+  p {
+    color: $text-100;
+    font-size: 22px;
+  }
+}
+
+.repositoriesList {
+  display: flex;
+
+  max-width: 1200px;
+  flex-wrap: wrap;
+
+  justify-content: space-around;
+}
+
+.flipImage {
+  transform: rotate(180deg);
+}

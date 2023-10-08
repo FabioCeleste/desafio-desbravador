@@ -1,0 +1,52 @@
+@import "../../colors.scss";
+.avatar {
+  border-radius: 50%;
+}
+
+.container {
+  margin-top: 48px;
+  display: flex;
+  width: 1200px;
+  align-items: center;
+  flex-direction: column;
+
+  h2 {
+    margin-top: 28px;
+
+    color: $text-100;
+    font-size: 28px;
+  }
+
+  h3 {
+    margin-top: 12px;
+
+    color: $text-100;
+    font-size: 28px;
+  }
+
+  h4 {
+    margin-top: 28px;
+
+    color: $text-100;
+    font-size: 22px;
+  }
+}
+
+.followersNFollowing {
+  display: flex;
+
+  width: 315px;
+  justify-content: space-between;
+
+  h5 {
+    margin-top: 8px;
+
+    color: $text-100;
+    font-size: 22px;
+  }
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}

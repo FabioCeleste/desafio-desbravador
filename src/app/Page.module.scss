@@ -1,0 +1,31 @@
+@import "./colors.scss";
+
+.container {
+  display: flex;
+  width: 1200px;
+
+  @media (max-width: 1200px) {
+    width: 100%;
+    padding: 16px;
+  }
+
+  button {
+    width: 76px;
+    background: $primary-1100;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    border: 0 none;
+    padding: 8px;
+  }
+
+  button:hover {
+    cursor: pointer;
+  }
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
